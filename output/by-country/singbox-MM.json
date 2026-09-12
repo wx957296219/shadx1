@@ -5,13 +5,13 @@
   "outbounds": [
     {
       "type": "trojan",
-      "tag": "🇾🇪 YE 01 - xiaohe",
-      "server": "z-jp1.1card.cc",
-      "server_port": 10010,
+      "tag": "🇲🇲 缅甸 (Myanmar) 01 - xiaohe",
+      "server": "z-sg2.6send.com",
+      "server_port": 10046,
       "password": "ultra@kWZdAzt_IH593eGLRjdxnBZ0",
       "tls": {
         "enabled": true,
-        "server_name": "www.cloudflare.com",
+        "server_name": "z-sg2.6send.com",
         "insecure": true
       }
     },
@@ -20,14 +20,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇾🇪 YE 01 - xiaohe"
+        "🇲🇲 缅甸 (Myanmar) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇾🇪 YE 01 - xiaohe"
+        "🇲🇲 缅甸 (Myanmar) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
