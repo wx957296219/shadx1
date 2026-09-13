@@ -6,8 +6,8 @@
     {
       "type": "vless",
       "tag": "🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - xiaohe",
-      "server": "162.159.43.187",
-      "server_port": 2086,
+      "server": "172.64.42.85",
+      "server_port": 8080,
       "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
       "transport": {
         "type": "ws",
@@ -20,48 +20,6 @@
     {
       "type": "vless",
       "tag": "🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - xiaohe",
-      "server": "162.159.43.187",
-      "server_port": 2082,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560security=tlssecurity=tls",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - xiaohe",
-      "server": "162.159.45.19",
-      "server_port": 2052,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560security=tls",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇰🇿 哈萨克斯坦 (Kazakhstan) 04 - xiaohe",
-      "server": "104.18.47.113",
-      "server_port": 80,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560security=tls",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇰🇿 哈萨克斯坦 (Kazakhstan) 05 - xiaohe",
       "server": "62.233.39.9",
       "server_port": 8443,
       "uuid": "4350213a-b4e7-262a-0bd7-bd16957cf71a",
@@ -70,7 +28,7 @@
         "server_name": "dl.dell.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "qq"
         },
         "reality": {
           "enabled": true,
@@ -84,24 +42,12 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇰🇿 哈萨克斯坦 (Kazakhstan) 06 - xiaohe",
-      "server": "178.236.16.98",
-      "server_port": 35728,
-      "uuid": "a00d89f6-ab7e-4e30-a5e5-54c701d62c93",
-      "tls": {
-        "enabled": true,
-        "server_name": "yahoo.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "vhUFNoFcvtZAVMo8y5K5eU2V43m5q6yjmWIhp5RkFng",
-          "short_id": "69a2"
-        }
-      }
+      "type": "shadowsocks",
+      "tag": "🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - xiaohe",
+      "server": "94.198.220.183",
+      "server_port": 64674,
+      "method": "chacha20-ietf-poly1305",
+      "password": "s8LbJCgUiGXeCKVc63tHJP"
     },
     {
       "type": "selector",
@@ -110,10 +56,7 @@
         "auto",
         "🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - xiaohe",
         "🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - xiaohe",
-        "🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - xiaohe",
-        "🇰🇿 哈萨克斯坦 (Kazakhstan) 04 - xiaohe",
-        "🇰🇿 哈萨克斯坦 (Kazakhstan) 05 - xiaohe",
-        "🇰🇿 哈萨克斯坦 (Kazakhstan) 06 - xiaohe"
+        "🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - xiaohe"
       ]
     },
     {
@@ -122,10 +65,7 @@
       "outbounds": [
         "🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - xiaohe",
         "🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - xiaohe",
-        "🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - xiaohe",
-        "🇰🇿 哈萨克斯坦 (Kazakhstan) 04 - xiaohe",
-        "🇰🇿 哈萨克斯坦 (Kazakhstan) 05 - xiaohe",
-        "🇰🇿 哈萨克斯坦 (Kazakhstan) 06 - xiaohe"
+        "🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
