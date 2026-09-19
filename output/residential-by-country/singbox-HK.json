@@ -5,13 +5,13 @@
   "outbounds": [
     {
       "type": "hysteria2",
-      "tag": "🇩🇰 丹麦 (Denmark) 01 - xiaohe",
-      "server": "se.xiaoliyu.cyou",
-      "server_port": 4433,
-      "password": "19f72087-4591-4d72-930b-2697078ec2be",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe",
+      "server": "8c04de36-tly2o0-tn28ki-mv7m.hk3.hyhuawei.com",
+      "server_port": 443,
+      "password": "94d40708-8273-11ea-8fc9-f23c913c8d2b",
       "tls": {
         "enabled": true,
-        "server_name": "se.xiaoliyu.cyou",
+        "server_name": "8c04de36-tly2o0-tn28ki-mv7m.hk3.hyhuawei.com",
         "insecure": true
       }
     },
@@ -20,14 +20,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇩🇰 丹麦 (Denmark) 01 - xiaohe"
+        "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇩🇰 丹麦 (Denmark) 01 - xiaohe"
+        "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
