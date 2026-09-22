@@ -5,17 +5,18 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇮🇶 IQ 01 - xiaohe
-  server: lucky-lab-ac6d.caveyi8071.workers.dev
-  port: 443
+  server: 185.255.179.11
+  port: 9443
   udp: true
   type: vless
-  uuid: 8a36be1d-7c78-4885-8a1f-bedf5ba7db1c
+  uuid: d9d0f208-d582-41d5-bb7b-742671402810
   tls: true
-  servername: lucky-lab-ac6d.caveyi8071.workers.dev
+  servername: hub-de-03.hanvpn.cc
   skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-service-name: de03-grpc-8e47a
 proxy-groups:
 - name: PROXIES
   type: select
