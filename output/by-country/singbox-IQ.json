@@ -5,20 +5,17 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇧🇷 巴西 (Brazil) 01 - xiaohe",
-      "server": "147.90.89.173",
+      "tag": "🇮🇶 IQ 01 - xiaohe",
+      "server": "lucky-lab-ac6d.caveyi8071.workers.dev",
       "server_port": 443,
-      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "uuid": "8a36be1d-7c78-4885-8a1f-bedf5ba7db1c",
       "tls": {
         "enabled": true,
-        "server_name": "cdn8848.776676.xyz",
-        "insecure": true
+        "server_name": "lucky-lab-ac6d.caveyi8071.workers.dev",
+        "insecure": false
       },
       "transport": {
-        "type": "ws",
-        "headers": {
-          "Host": "cdn8848.776676.xyz"
-        }
+        "type": "ws"
       }
     },
     {
@@ -26,14 +23,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇧🇷 巴西 (Brazil) 01 - xiaohe"
+        "🇮🇶 IQ 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇧🇷 巴西 (Brazil) 01 - xiaohe"
+        "🇮🇶 IQ 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

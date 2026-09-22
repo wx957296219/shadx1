@@ -4,31 +4,29 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇧🇷 巴西 (Brazil) 01 - xiaohe
-  server: 147.90.89.173
+- name: 🇮🇶 IQ 01 - xiaohe
+  server: lucky-lab-ac6d.caveyi8071.workers.dev
   port: 443
   udp: true
   type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: 8a36be1d-7c78-4885-8a1f-bedf5ba7db1c
   tls: true
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
+  servername: lucky-lab-ac6d.caveyi8071.workers.dev
+  skip-cert-verify: false
   network: ws
   ws-opts:
     path: /
-    headers:
-      Host: cdn8848.776676.xyz
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇧🇷 巴西 (Brazil) 01 - xiaohe
+  - 🇮🇶 IQ 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇧🇷 巴西 (Brazil) 01 - xiaohe
+  - 🇮🇶 IQ 01 - xiaohe
 rules:
 - MATCH,PROXIES
