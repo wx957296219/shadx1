@@ -5,22 +5,28 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇮🇶 IQ 01 - xiaohe",
-      "server": "185.255.179.11",
-      "server_port": 9443,
-      "uuid": "d9d0f208-d582-41d5-bb7b-742671402810",
+      "tag": "🌐 其他地区 (Other) 01 - xiaohe",
+      "server": "104.21.12.3",
+      "server_port": 443,
+      "uuid": "a90c264d-3853-4eef-9a3d-628b2d02d15e",
       "tls": {
         "enabled": true,
-        "server_name": "hub-de-03.hanvpn.cc",
+        "server_name": "6-m19.MexiCO-PoRt.CcWU.Cc",
         "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         }
       },
       "transport": {
-        "type": "grpc",
-        "service_name": "de03-grpc-8e47a"
+        "type": "ws",
+        "path": "/CjBjB9sn5pCvaSwScc",
+        "headers": {
+          "Host": "6-m19.mExiCo-pOrT.cCwu.cc"
+        }
       }
     },
     {
@@ -28,14 +34,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇶 IQ 01 - xiaohe"
+        "🌐 其他地区 (Other) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇶 IQ 01 - xiaohe"
+        "🌐 其他地区 (Other) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

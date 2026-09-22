@@ -5,22 +5,22 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇮🇪 爱尔兰 (Ireland) 01 - xiaohe",
-      "server": "3.9.135.156",
-      "server_port": 51847,
-      "uuid": "391a01e9-b664-407b-9158-610fab3f5920",
+      "tag": "🇲🇩 摩尔多瓦 (Moldova) 01 - xiaohe",
+      "server": "moldova.cdn-europe.org",
+      "server_port": 4443,
+      "uuid": "d7c94b82-657a-4bb7-9b24-2ae566669835",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.tesla.com",
+        "server_name": "moldova.cdn-europe.org",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
-          "public_key": "S6noV0L8eNASnTe1gXLutLZNdfENsvKMsOJiGQYi6nc",
-          "short_id": "0eec442e7b34d2f2"
+          "public_key": "cYwrRCz_hKgT_JE8WywuLE3XOkAEqCTuBiUvXAaEjn8",
+          "short_id": "694ee64512cfcbef"
         }
       }
     },
@@ -29,14 +29,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇪 爱尔兰 (Ireland) 01 - xiaohe"
+        "🇲🇩 摩尔多瓦 (Moldova) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇪 爱尔兰 (Ireland) 01 - xiaohe"
+        "🇲🇩 摩尔多瓦 (Moldova) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

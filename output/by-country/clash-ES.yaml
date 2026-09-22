@@ -19,21 +19,13 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: WSyL4XTwNsdv
 - name: 🇪🇸 西班牙 (Spain) 03 - xiaohe
-  server: mygptagent.org
-  port: 443
+  server: 66.163.118.73
+  port: 22324
   udp: true
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
   alterId: 0
   cipher: auto
-  tls: true
-  servername: mygptagent.org
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /linkvws
-    headers:
-      Host: mygptagent.org
 proxy-groups:
 - name: PROXIES
   type: select
