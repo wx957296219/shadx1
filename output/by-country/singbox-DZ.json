@@ -4,15 +4,14 @@
   },
   "outbounds": [
     {
-      "type": "vless",
-      "tag": "🇲🇩 摩尔多瓦 (Moldova) 01 - xiaohe",
-      "server": "md-new.failspace.top",
-      "server_port": 443,
-      "uuid": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
-      "flow": "xtls-rprx-vision",
+      "type": "hysteria2",
+      "tag": "🇩🇿 DZ 01 - xiaohe",
+      "server": "85.204.107.178",
+      "server_port": 8443,
+      "password": "Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0",
       "tls": {
         "enabled": true,
-        "server_name": "md-new.failspace.top",
+        "server_name": "hopp-romania-new.roxa.org",
         "insecure": false
       }
     },
@@ -21,14 +20,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇲🇩 摩尔多瓦 (Moldova) 01 - xiaohe"
+        "🇩🇿 DZ 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇲🇩 摩尔多瓦 (Moldova) 01 - xiaohe"
+        "🇩🇿 DZ 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
