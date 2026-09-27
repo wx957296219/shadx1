@@ -5,36 +5,21 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
-  server: 172.64.229.2
-  port: 2082
-  udp: true
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
-  server: 108.162.198.178
-  port: 2052
-  udp: true
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  network: ws
-  ws-opts:
-    path: '/?ed=2560security=tls '
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
-  server: 91.196.32.163
+  server: 104.21.67.236
   port: 443
   udp: true
-  type: hysteria2
-  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
-  sni: germany3.h2corp.local
-  skip-cert-verify: true
-- name: 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
+  type: vless
+  uuid: 96e341a7-3077-4613-b482-41bd9c90cc4d
+  tls: true
+  servername: eZaCCesS-proJEcT-4C7950.Ez-dC9bBB.WorKErs.dEV
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiN2w4dDlRNVV5NkZ5NU1aeSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
+    headers:
+      Host: ezaccess-project-4c7950.ez-dc9bbb.workers.dev
+- name: 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
   server: 91.240.86.70
   port: 22443
   udp: true
@@ -42,14 +27,21 @@ proxies:
   password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
   sni: itsallproxy.quattro-tech.ru
   skip-cert-verify: true
-- name: 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
-  server: msk.frkn.org
+- name: 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
+  server: fbsv6.guardora.pro
   port: 443
   udp: true
-  type: hysteria2
-  password: f317b5d6-d399-4d3d-a051-89d674ae953c
-  sni: msk.frkn.org
+  type: vless
+  uuid: bc5ec86c-3e65-4272-994c-59a924c72a68
+  tls: true
+  servername: fbsv6.guardora.pro
   skip-cert-verify: false
+  client-fingerprint: firefox
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: fbsv6.guardora.pro
 proxy-groups:
 - name: PROXIES
   type: select
@@ -58,8 +50,6 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -68,7 +58,5 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
 rules:
 - MATCH,PROXIES
