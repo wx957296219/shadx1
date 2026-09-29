@@ -5,22 +5,21 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇭🇺 匈牙利 (Hungary) 01 - xiaohe",
-      "server": "45.9.168.211",
+      "tag": "🇦🇱 AL 01 - xiaohe",
+      "server": "85.155.228.185",
       "server_port": 443,
-      "uuid": "7de5e70d-b95e-4019-affb-636151647b52",
-      "flow": "xtls-rprx-vision",
+      "uuid": "ca5ffe64-81e0-42f0-a136-03cc4f662a4f",
       "tls": {
         "enabled": true,
-        "server_name": "mzone.hu.3cloudhost.com",
+        "server_name": "avsal.krusofiya.fun",
         "utls": {
           "enabled": true,
-          "fingerprint": "safari"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "SARDrN_d46PsugT2k5ILoQAJqaA1eCOZhe1BjKMonj8",
-          "short_id": ""
+          "public_key": "9M294WArTUZ9m1fMmvlHauSb5wZo68SkCW_lEgBVAF8",
+          "short_id": "4d5faa03b738bd3b"
         }
       }
     },
@@ -29,14 +28,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇭🇺 匈牙利 (Hungary) 01 - xiaohe"
+        "🇦🇱 AL 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇭🇺 匈牙利 (Hungary) 01 - xiaohe"
+        "🇦🇱 AL 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
