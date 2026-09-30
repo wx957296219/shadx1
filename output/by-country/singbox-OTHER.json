@@ -6,19 +6,23 @@
     {
       "type": "vless",
       "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "www.emerson.com",
+      "server": "104.25.22.24",
       "server_port": 443,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "uuid": "e6cc4788-3c45-4df1-94f3-8303504a65bf",
       "tls": {
         "enabled": true,
-        "server_name": "77yku.ngw0.4j6.hh.vavava.kdns.fr",
-        "insecure": false
+        "server_name": "khoda.ak-khoda.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport": {
         "type": "ws",
-        "path": "/?ed=2560",
+        "path": "/sync",
         "headers": {
-          "Host": "77yku.ngw0.4j6.hh.vavava.kdns.fr"
+          "Host": "khoda.ak-khoda.workers.dev"
         }
       }
     },

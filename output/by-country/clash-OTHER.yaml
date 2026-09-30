@@ -5,19 +5,20 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - xiaohe
-  server: www.emerson.com
+  server: 104.25.22.24
   port: 443
   udp: true
   type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  uuid: e6cc4788-3c45-4df1-94f3-8303504a65bf
   tls: true
-  servername: 77yku.ngw0.4j6.hh.vavava.kdns.fr
+  servername: khoda.ak-khoda.workers.dev
   skip-cert-verify: false
+  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /?ed=2560
+    path: /sync
     headers:
-      Host: 77yku.ngw0.4j6.hh.vavava.kdns.fr
+      Host: khoda.ak-khoda.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
