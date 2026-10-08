@@ -5,19 +5,23 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
-  server: 130.49.189.158
-  port: 43558
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: EKGHx2yhUzmnRONhNOxvn+BqUr10wfqDQqRg4DYUJE8=
-- name: 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
   server: 194.38.11.86
   port: 65443
   udp: true
   type: ss
   cipher: aes-256-cfb
   password: 7eadc6dbe2ae
+- name: 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
+  server: 31.131.251.17
+  port: 443
+  udp: true
+  type: vless
+  uuid: 9ea8b000-58ce-005a-b108-989dd4f248f1
+  flow: xtls-rprx-vision
+  tls: true
+  servername: quatro.lmstream.org
+  skip-cert-verify: false
+  client-fingerprint: firefox
 - name: 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
   server: srv-17e124.21freedom.net
   port: 11592
