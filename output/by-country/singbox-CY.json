@@ -13,11 +13,7 @@
       "tls": {
         "enabled": true,
         "server_name": "co-pl.speedtec.ru",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        }
+        "insecure": false
       }
     },
     {
@@ -52,7 +48,7 @@
         "server_name": "deepl.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
