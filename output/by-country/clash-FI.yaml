@@ -28,7 +28,7 @@ proxies:
     public-key: 4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM
     short-id: d368b94e275ab080
   servername: www.google.com
-  client-fingerprint: firefox
+  client-fingerprint: random
 - name: 🇫🇮 芬兰 (Finland) 03 - xiaohe
   server: edge10.cyrionflare.com
   port: 2052
@@ -36,6 +36,14 @@ proxies:
   type: vless
   uuid: 1a8ecc41-6e62-431b-8eca-87c2fa4dc286
 - name: 🇫🇮 芬兰 (Finland) 04 - xiaohe
+  server: fin-2.povrak.ir
+  port: 56268
+  udp: true
+  type: vmess
+  uuid: 9a53a545-53e3-4fce-a0ba-5cfc3c4e5a74
+  alterId: 0
+  cipher: auto
+- name: 🇫🇮 芬兰 (Finland) 05 - xiaohe
   server: 109.172.54.135
   port: 8444
   udp: true
@@ -49,7 +57,7 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: GunService
-- name: 🇫🇮 芬兰 (Finland) 05 - xiaohe
+- name: 🇫🇮 芬兰 (Finland) 06 - xiaohe
   server: fi-p1.h1cloud.net
   port: 25634
   udp: true
@@ -74,6 +82,7 @@ proxy-groups:
   - 🇫🇮 芬兰 (Finland) 03 - xiaohe
   - 🇫🇮 芬兰 (Finland) 04 - xiaohe
   - 🇫🇮 芬兰 (Finland) 05 - xiaohe
+  - 🇫🇮 芬兰 (Finland) 06 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -84,5 +93,6 @@ proxy-groups:
   - 🇫🇮 芬兰 (Finland) 03 - xiaohe
   - 🇫🇮 芬兰 (Finland) 04 - xiaohe
   - 🇫🇮 芬兰 (Finland) 05 - xiaohe
+  - 🇫🇮 芬兰 (Finland) 06 - xiaohe
 rules:
 - MATCH,PROXIES
