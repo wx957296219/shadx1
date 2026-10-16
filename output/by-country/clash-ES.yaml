@@ -16,28 +16,18 @@ proxies:
     public-key: v4MuZIvFrTPT5GHMSaPryUAbIZlLstmsUTzmC1E-JTE
     short-id: 0dfc23fe80778c00
   servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇪🇸 西班牙 (Spain) 02 - xiaohe
-  server: 185.174.137.172
-  port: 8446
-  udp: true
-  type: hysteria2
-  password: e9dc02d400b67c727aca1620
-  sni: 185.174.137.172
-  skip-cert-verify: true
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇪🇸 西班牙 (Spain) 01 - xiaohe
-  - 🇪🇸 西班牙 (Spain) 02 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇪🇸 西班牙 (Spain) 01 - xiaohe
-  - 🇪🇸 西班牙 (Spain) 02 - xiaohe
 rules:
 - MATCH,PROXIES
