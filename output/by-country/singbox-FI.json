@@ -20,22 +20,25 @@
     {
       "type": "vless",
       "tag": "🇫🇮 芬兰 (Finland) 02 - xiaohe",
-      "server": "185.119.81.7",
+      "server": "2.29.101.158",
       "server_port": 443,
-      "uuid": "2f5cfa10-43e5-4912-800d-557308a26a29",
-      "flow": "xtls-rprx-vision",
+      "uuid": "9a0e84f8-4b58-477f-99da-5fac5a2e58e8",
       "tls": {
         "enabled": true,
-        "server_name": "ht689zw45oor.cloudydigital.net",
+        "server_name": "36a466g.fi1.h1clayd.click",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
-          "public_key": "9BUlinkTIxNgD2Em4KShtEbXOjBKvz2mDwT1VqoeR1k",
-          "short_id": "80c4e0bda641d6c9"
+          "public_key": "pAgrBKJCmuSJHIzYkEJTqsOBOVBK_DMtEqFPo-PaTkg",
+          "short_id": "b3c9d0c6bdd114a6"
         }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "0adb9638509b"
       }
     },
     {
