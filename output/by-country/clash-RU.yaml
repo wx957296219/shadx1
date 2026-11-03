@@ -30,30 +30,30 @@ proxies:
   skip-cert-verify: true
   client-fingerprint: chrome
 - name: 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
-  server: 72.56.11.99
+  server: 157.22.240.20
   port: 443
   udp: true
   type: vless
-  uuid: 7ad63b26-bf70-4872-8fab-ebaf73a1e19d
+  uuid: f28ce4eb-62cd-45f5-b3b3-be1c1a95e335
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: LEziyH-E4k9hehGRJkVi1FadVObB_NZJy8U7oUCVWXU
-    short-id: b9120cd53ffd7bba
-  servername: updates-94.topp-con.xyz
-  client-fingerprint: chrome
+    public-key: T1BWBw3lq9G1LiQ7eQSPfdNQic7bUMEbdFNJBewAwB8
+    short-id: 6ad3c0f1e9b2478a
+  servername: yandex.ru
+  client-fingerprint: firefox
 - name: 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
-  server: de-2.ffpn.pro
+  server: nl198391278291.izzzyvpn.space
   port: 443
   udp: true
   type: vless
-  uuid: 727a9178-d7f0-4142-8205-b0d19959ded0
+  uuid: e7ee38d7-f8ad-4d14-a491-2d9e18011845
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: DCpi9-1rSXxBnEIAQ9U3mTqHivk7vHJRV_T2pWw5vCc
-    short-id: 681fc2dd643bc2f3
-  servername: de-2.ffpn.pro
+    public-key: ScuWSKQxJg4QKv3FUj39wy8ZsZlnu1WFPhMWxbpTFFk
+    short-id: b996df2f36a9ae6b
+  servername: nl198391278291.izzzyvpn.space
   client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
