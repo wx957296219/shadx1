@@ -18,21 +18,21 @@
     {
       "type": "vless",
       "tag": "🇵🇱 波兰 (Poland) 02 - xiaohe",
-      "server": "54.37.136.194",
-      "server_port": 2053,
-      "uuid": "e8a432c8-5d84-49a5-b822-67ed761a58f9",
+      "server": "84.23.52.120",
+      "server_port": 28450,
+      "uuid": "4d8132cb-f4e3-428c-91ff-2b4f7a868551",
       "tls": {
         "enabled": true,
-        "server_name": "www.cloudflare.com",
+        "server_name": "pl.sparxiecn.com",
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "Vemd9Jjk5xKO8qSC3g8VVagwcb4J1BcTvp86CswQC0A",
-          "short_id": "50ba05992b05c1c3"
         }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/lovelive"
       }
     },
     {

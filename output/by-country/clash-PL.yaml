@@ -13,17 +13,18 @@ proxies:
   sni: browseexecutivejobopeningsandenhanceleadershipcareer.com
   skip-cert-verify: false
 - name: 🇵🇱 波兰 (Poland) 02 - xiaohe
-  server: 54.37.136.194
-  port: 2053
+  server: 84.23.52.120
+  port: 28450
   udp: true
   type: vless
-  uuid: e8a432c8-5d84-49a5-b822-67ed761a58f9
+  uuid: 4d8132cb-f4e3-428c-91ff-2b4f7a868551
   tls: true
-  reality-opts:
-    public-key: Vemd9Jjk5xKO8qSC3g8VVagwcb4J1BcTvp86CswQC0A
-    short-id: 50ba05992b05c1c3
-  servername: www.cloudflare.com
+  servername: pl.sparxiecn.com
+  skip-cert-verify: false
   client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /lovelive
 proxy-groups:
 - name: PROXIES
   type: select
