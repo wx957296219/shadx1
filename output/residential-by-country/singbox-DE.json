@@ -5,18 +5,16 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "n04.jinggai.online",
-      "server_port": 8443,
-      "uuid": "91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a",
-      "tls": {
-        "enabled": true,
-        "server_name": "n04.jinggai.online",
-        "insecure": false
-      },
+      "tag": "🇩🇪 德国 (Germany) 01 (移动家宽) - xiaohe",
+      "server": "188.114.97.6",
+      "server_port": 8080,
+      "uuid": "93fa8bdb-9cca-4a3e-8355-b7c12e4f595e",
       "transport": {
         "type": "ws",
-        "path": "/nvl-n04-ws/e0577fe8fd7c8823"
+        "path": "/vl/yLWNcuUuw1jlJpkDhGy?ed=2560",
+        "headers": {
+          "Host": "fornewiran.ade-1000.workers.dev"
+        }
       }
     },
     {
@@ -24,14 +22,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🌐 其他地区 (Other) 01 - xiaohe"
+        "🇩🇪 德国 (Germany) 01 (移动家宽) - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🌐 其他地区 (Other) 01 - xiaohe"
+        "🇩🇪 德国 (Germany) 01 (移动家宽) - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

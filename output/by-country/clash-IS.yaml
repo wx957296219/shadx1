@@ -4,29 +4,32 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🌐 其他地区 (Other) 01 - xiaohe
-  server: n04.jinggai.online
-  port: 8443
+- name: 🇮🇸 冰岛 (Iceland) 01 - xiaohe
+  server: 191.44.112.170
+  port: 443
   udp: true
   type: vless
-  uuid: 91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a
+  uuid: 46d221fa-e9b4-748c-4eae-019a88e42991
   tls: true
-  servername: n04.jinggai.online
+  servername: orbylume.my.to
   skip-cert-verify: false
+  client-fingerprint: firefox
   network: ws
   ws-opts:
-    path: /nvl-n04-ws/e0577fe8fd7c8823
+    path: /tvpn-tor/is
+    headers:
+      Host: orbylume.my.to
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🌐 其他地区 (Other) 01 - xiaohe
+  - 🇮🇸 冰岛 (Iceland) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🌐 其他地区 (Other) 01 - xiaohe
+  - 🇮🇸 冰岛 (Iceland) 01 - xiaohe
 rules:
 - MATCH,PROXIES
