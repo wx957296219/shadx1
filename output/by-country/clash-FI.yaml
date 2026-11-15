@@ -31,20 +31,20 @@ proxies:
   udp: true
   type: hysteria2
   password: 549766c3-fa5f-471e-8031-ffc1f8d5064f
-  sni: 94.183.164.119
-  skip-cert-verify: true
+  sni: lakes.blog-forme.ru
+  skip-cert-verify: false
 - name: 🇫🇮 芬兰 (Finland) 04 - xiaohe
-  server: 107.181.151.128
-  port: 443
+  server: 132.243.163.119
+  port: 25749
   udp: true
   type: vless
-  uuid: 88742d38-3f5c-4b9c-b256-7df5db8257ec
+  uuid: e460e79d-5dd9-451d-8d1a-a84c8b70c9a7
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: zfsjt2A8ur0qHWIuCG7F9W4wZN3VTuL6fkTljC-9R0s
-    short-id: 8f79726c5002
-  servername: www.mozilla.org
+    public-key: nmjOhfpVZtk9W-3GZk5JY0B-OvCFkjP2RvTVBNZO7lE
+    short-id: f6b3841eabafff9a
+  servername: 80aa2br.fi4.h1clayd.click
   client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
