@@ -27,30 +27,7 @@
     {
       "type": "vless",
       "tag": "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
-      "server": "201.24.121.243",
-      "server_port": 443,
-      "uuid": "32b5ca9b-3f81-4031-965d-e8b074216e8d",
-      "tls": {
-        "enabled": true,
-        "server_name": "kk-ru24a1.testkknegr.online",
-        "insecure": false,
-        "alpn": [
-          "h2"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "vlgrpc"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
-      "server": "201.24.116.192",
+      "server": "201.51.12.98",
       "server_port": 443,
       "uuid": "38308ff1-5aa9-494f-a25a-0f2870d56b3e",
       "tls": {
@@ -59,12 +36,38 @@
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "qq"
         }
       },
       "transport": {
         "type": "grpc",
         "service_name": "mobile.api.Event"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
+      "server": "193.233.219.98",
+      "server_port": 443,
+      "uuid": "265ecca2-4733-49de-b2c9-ed7f0e999655",
+      "tls": {
+        "enabled": true,
+        "server_name": "daily-author.ru",
+        "insecure": false,
+        "alpn": [
+          "http"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/api/vless",
+        "headers": {
+          "Host": "vpn-rating.space"
+        }
       }
     },
     {
