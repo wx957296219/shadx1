@@ -4,29 +4,28 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇹🇷 土耳其 (Turkey) 01 - xiaohe
-  server: 185.39.204.117
-  port: 10002
+- name: 🇧🇷 巴西 (Brazil) 01 - xiaohe
+  server: 103.88.232.55
+  port: 1270
   udp: true
-  type: vless
-  uuid: facb802c-de2e-11f1-9a22-a3404e852f3b
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
   tls: true
-  servername: tr2.vpnjantit.com
+  servername: xmfhlpy.com
   skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /vpnjantit
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇹🇷 土耳其 (Turkey) 01 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇹🇷 土耳其 (Turkey) 01 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 01 - xiaohe
 rules:
 - MATCH,PROXIES
