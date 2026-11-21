@@ -25,22 +25,16 @@
       }
     },
     {
-      "type": "trojan",
+      "type": "vless",
       "tag": "🇸🇪 瑞典 (Sweden) 03 - xiaohe",
-      "server": "95.143.196.97",
-      "server_port": 443,
-      "password": "FkQH0Q5EFneySv20Qj3yoArD2GSb2XZF",
-      "tls": {
-        "enabled": true,
-        "server_name": "connect-se.mimowhat.online",
-        "insecure": false,
-        "alpn": [
-          "h2",
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
+      "server": "5.178.109.174",
+      "server_port": 14430,
+      "uuid": "80de563a-cac8-40ea-8cb0-4cb082dd92f9",
+      "transport": {
+        "type": "ws",
+        "path": "/vless",
+        "headers": {
+          "Host": "5.178.109.174"
         }
       }
     },
@@ -65,22 +59,8 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇸🇪 瑞典 (Sweden) 05 - xiaohe",
-      "server": "5.178.109.174",
-      "server_port": 14430,
-      "uuid": "80de563a-cac8-40ea-8cb0-4cb082dd92f9",
-      "transport": {
-        "type": "ws",
-        "path": "/vless",
-        "headers": {
-          "Host": "5.178.109.174"
-        }
-      }
-    },
-    {
       "type": "trojan",
-      "tag": "🇸🇪 瑞典 (Sweden) 06 - xiaohe",
+      "tag": "🇸🇪 瑞典 (Sweden) 05 - xiaohe",
       "server": "95.143.196.32",
       "server_port": 443,
       "password": "FkQH0Q5EFneySv20Qj3yoArD2GSb2XZF",
@@ -88,6 +68,29 @@
         "enabled": true,
         "server_name": "connect-se.mimowhat.online",
         "insecure": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇪 瑞典 (Sweden) 06 - xiaohe",
+      "server": "92.223.84.254",
+      "server_port": 443,
+      "uuid": "740b2630-b42d-425c-bacd-37e7e30d78f1",
+      "tls": {
+        "enabled": true,
+        "server_name": "subgift.gcorecdn.com",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/t.me-SubGift",
+        "headers": {
+          "Host": "subgift.gcorecdn.com"
+        }
       }
     },
     {
