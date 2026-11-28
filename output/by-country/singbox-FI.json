@@ -6,9 +6,9 @@
     {
       "type": "vless",
       "tag": "🇫🇮 芬兰 (Finland) 01 - xiaohe",
-      "server": "85.8.201.187",
+      "server": "85.8.201.186",
       "server_port": 443,
-      "uuid": "7aa77858-f235-44d6-9434-7ab060848b17",
+      "uuid": "7aa77858-f235-000c-9434-7ab060848b17",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
@@ -16,7 +16,7 @@
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "edge"
+          "fingerprint": "chrome"
         }
       }
     },
