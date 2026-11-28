@@ -5,12 +5,12 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe
-  server: mfjh645drfj1dr6j5.df6h451rh.xin
+  server: a54ge.df6h451rh.xin
   port: 443
   udp: true
   type: anytls
   password: 0324fbc29561
-  sni: px.ads.linkedin.com
+  sni: docs.microsoft.com
   skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
